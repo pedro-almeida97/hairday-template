@@ -8,3 +8,4 @@ import './styles/schedule.css'
 
 import './modules/form/submit.js'
 import './modules/form/page-load.js'
+import './modules/form/hours-load.js'

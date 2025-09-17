@@ -1,4 +1,5 @@
 import dayjs from 'dayjs'
+import { schedulesDay } from '../schedules/load'
 
 const form = document.querySelector('form')
 const selectedDate = document.getElementById('date')
@@ -10,6 +11,5 @@ selectedDate.min = inputToday
 
 form.onsubmit = (e) => {
   e.preventDefault()
-
-  console.log('ENVIADO')
+  schedulesDay()
 }
