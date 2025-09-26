@@ -1,5 +1,5 @@
 import dayjs from 'dayjs'
-import { schedulesDay } from '../schedules/load'
+
 import { scheduleNew } from '../../services/schedule-new'
 
 const clientName = document.getElementById('client')
